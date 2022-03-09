@@ -4,6 +4,8 @@ import styles from "../styles/Home.module.css"
 
 import Link from "next/link"
 
+const prefix = "/nextjs-test"
+
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -18,9 +20,9 @@ export default function Home() {
           href="nextjs-test/public/images/favicon.png"
         />
       </Head>
-      <div className="logo">KC</div>
+
       <nav className="nav">
-        <div className="logo">KC</div>
+        <img className="logo" src={`${prefix}/images/kslogo.png`}></img>
         <li>
           <Link href="/about">
             <a>About</a>
@@ -43,7 +45,7 @@ export default function Home() {
         </li>
         <li>
           <Link href="/blog">
-            <a>Blog Post</a>
+            <a>Blog </a>
           </Link>
         </li>
       </nav>

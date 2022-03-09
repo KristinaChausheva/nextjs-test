@@ -18,12 +18,13 @@ a {
 :root {
   --main-color: #ff0266;
   --secondary-color: #03dac6;
+  --grey-color: rgb(175, 174, 174);
 }
 
 .nav {
   /* padding: 0 2rem; */
   height: 100%;
-  width: 13%;
+  width: 11%;
   position: absolute;
   top: 0;
   left: 0;
@@ -38,16 +39,20 @@ a {
 .logo {
   position: absolute;
   top: 10px;
-  left: 10px;
+  left: 0px;
   font-size: 10rem;
+  z-index: 1;
 }
 .nav > li {
   list-style-type: none;
-  border-bottom: solid var(--secondary-color) 1px;
-  border-top: solid var(--secondary-color) 1px;
+  border-bottom: solid var(--grey-color) 1px;
+  color: var(--grey-color);
   position: relative;
   width: 100%;
   padding: 2em;
+}
+li:nth-child(2) {
+  border-top: solid var(--grey-color) 1px;
 }
 
 .scroll {
