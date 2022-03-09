@@ -73,6 +73,7 @@ export default function Home() {
             Contact me
           </a>
         </div>
+        <div className="scroll">scroll down &rarr;</div>
       </main>
 
       <footer className={styles.footer}></footer>

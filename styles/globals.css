@@ -50,6 +50,45 @@ a {
   padding: 2em;
 }
 
+.scroll {
+  transform: rotate(90deg);
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  right: 10px;
+  animation-name: animatedScroll;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  /* animation-delay: 2s; */
+}
+@keyframes animatedScroll {
+  0% {
+    color: var(--secondary-color);
+    /* left: 0px; */
+    bottom: 10px;
+  }
+  100% {
+    color: var(--main-color);
+    /* left: 200px; */
+    bottom: 0px;
+  }
+  50% {
+    color: var(--secondary-color);
+    /* left: 200px; */
+    bottom: 10px;
+  }
+  75% {
+    color: var(--main-color);
+    /* left: 0px; */
+    bottom: 0px;
+  }
+  100% {
+    color: var(--secondary-color);
+    /* left: 0px; */
+    bottom: 10px;
+  }
+}
+
 /* .box {
   height: 100%;
   position: absolute;
