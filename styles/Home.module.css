@@ -1,5 +1,11 @@
-.container {
+.nav {
   padding: 0 2rem;
+  height: 100%;
+  width: 35%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: red;
 }
 
 .main {
@@ -13,7 +19,7 @@
   color: whitesmoke;
 }
 
-.footer {
+/* .footer {
   display: flex;
   flex: 1;
   padding: 2rem 0;
@@ -27,7 +33,7 @@
   justify-content: center;
   align-items: center;
   flex-grow: 1;
-}
+} */
 
 .title a {
   color: #0070f3;
