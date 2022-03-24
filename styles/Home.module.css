@@ -17,6 +17,9 @@
   justify-content: center;
   align-items: center;
   color: whitesmoke;
+  position: absolute;
+  top: 0;
+  left: 40%;
 }
 .sectionMySkills {
   min-height: 100vh;

@@ -39,12 +39,12 @@ export default function Home() {
           </Link>
         </li>
         <li>
-          <Link href="/contact">
+          <Link href="#contacts">
             <a>Contact</a>
           </Link>
         </li>
         <li>
-          <Link href="/blog">
+          <Link href="#blog">
             <a>Blog </a>
           </Link>
         </li>
@@ -79,8 +79,12 @@ export default function Home() {
       </section>
       <section className={styles.sectionMySkills}>My Skills</section>
       <section className={styles.sectionMySkills}>My Work</section>
-      <section className={styles.sectionMySkills}>My Contacts</section>
-      <section className={styles.sectionMySkills}>My Blog</section>
+      <section className={styles.sectionMySkills} id="contacts">
+        My Contacts
+      </section>
+      <section className={styles.sectionMySkills} id="blog">
+        My Blog
+      </section>
       <footer className={styles.footer}>All Rights Reserved &copy; 2022</footer>
     </div>
   )
