@@ -49,7 +49,7 @@ export default function Home() {
           </Link>
         </li>
       </nav>
-      <main className={styles.main}>
+      <section className={styles.sectionHome}>
         <div className="box">
           <h1 className="greeting">Hi, I am Kristina Simon</h1>
           <h2 className="loader">
@@ -76,7 +76,8 @@ export default function Home() {
           </a>
         </div>
         <div className="scroll">scroll down &rarr;</div>
-      </main>
+      </section>
+      <section className={styles.sectionMySkills}>My Skills</section>
 
       <footer className={styles.footer}></footer>
     </div>
