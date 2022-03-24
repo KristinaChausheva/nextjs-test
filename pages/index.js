@@ -75,7 +75,8 @@ export default function Home() {
             Contact me
           </a>
         </div>
-        <div className="scroll">scroll down &rarr;</div>
+        <div className="scroll-left">scroll down &rarr;</div>
+        <div className="scroll-right">scroll down &rarr;</div>
       </section>
       <section className={styles.sectionMySkills}>My Skills</section>
       <section className={styles.sectionMySkills}>My Work</section>

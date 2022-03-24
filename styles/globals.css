@@ -55,12 +55,27 @@ li:nth-child(2) {
   border-top: solid var(--grey-color) 1px;
 }
 
-.scroll {
+.scroll-left {
   transform: rotate(90deg);
   width: 100px;
   height: 100px;
   position: absolute;
-  right: 10px;
+  bottom: 0;
+  left: 54vw;
+  /* right: 45vw; */
+  animation-name: animatedScroll;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  /* animation-delay: 2s; */
+}
+.scroll-right {
+  transform: rotate(90deg);
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  /* left: 54vw; */
+  right: 45vw;
   animation-name: animatedScroll;
   animation-iteration-count: infinite;
   animation-duration: 1s;
