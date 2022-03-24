@@ -78,8 +78,10 @@ export default function Home() {
         <div className="scroll">scroll down &rarr;</div>
       </section>
       <section className={styles.sectionMySkills}>My Skills</section>
-
-      <footer className={styles.footer}></footer>
+      <section className={styles.sectionMySkills}>My Work</section>
+      <section className={styles.sectionMySkills}>My Contacts</section>
+      <section className={styles.sectionMySkills}>My Blog</section>
+      <footer className={styles.footer}>All Rights Reserved &copy; 2022</footer>
     </div>
   )
 }
