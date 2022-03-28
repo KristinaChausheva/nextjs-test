@@ -21,6 +21,9 @@ export default function Home() {
         />
       </Head>
 
+      <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+      <div class="elfsight-app-8a804252-3e4b-4bde-91ae-73e52ade35d7"></div>
+
       <nav className="nav">
         <img className="logo" src={`${prefix}/images/kslogo.png`}></img>
         <li>
