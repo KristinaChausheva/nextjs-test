@@ -2,8 +2,8 @@ import Form from "../components/Form"
 
 import React from "react"
 
-function contactForm() {
+function form() {
   return <Form />
 }
 
-export default contactForm
+export default form
