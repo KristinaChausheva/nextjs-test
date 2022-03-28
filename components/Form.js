@@ -16,6 +16,7 @@ function Form() {
         name="_next"
         value="https://kristinachausheva.github.io/nextjs-test/thanks.html"
       />
+      <input type="hidden" name="_captcha" value="false"></input>
       <button type="submit">Send</button>
     </form>
   )
