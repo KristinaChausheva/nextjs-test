@@ -327,7 +327,7 @@ h2 .span {
 }
 
 /* form styles */
-.box {
+.form-box {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -340,18 +340,18 @@ h2 .span {
   border-radius: 10px;
 }
 
-.box h2 {
+.form-box h2 {
   margin: 0 0 30px;
   padding: 0;
   color: #fff;
   text-align: center;
 }
 
-.box .user-box {
+.form-box .user-box {
   position: relative;
 }
 
-.box .user-box input {
+.form-box .user-box input {
   width: 100%;
   padding: 10px 0;
   font-size: 16px;
@@ -362,7 +362,7 @@ h2 .span {
   outline: none;
   background: transparent;
 }
-.box .user-box label {
+.form-box .user-box label {
   position: absolute;
   top: 0;
   left: 0;
@@ -373,15 +373,15 @@ h2 .span {
   transition: 0.5s;
 }
 
-.box .user-box input:focus ~ label,
-.box .user-box input:valid ~ label {
+.form-box .user-box input:focus ~ label,
+.form-box .user-box input:valid ~ label {
   top: -20px;
   left: 0;
   color: #03e9f4;
   font-size: 12px;
 }
 
-.box form button {
+.form-box form button {
   position: relative;
   display: inline-block;
   padding: 10px 20px;
@@ -398,7 +398,7 @@ h2 .span {
   border: none;
 }
 
-.box button:hover {
+.form-box button:hover {
   background: #03e9f4;
   color: #fff;
   border-radius: 5px;
@@ -406,12 +406,12 @@ h2 .span {
     0 0 100px #03e9f4;
 }
 
-.box button span {
+.form-box button span {
   position: absolute;
   display: block;
 }
 
-.box button span:nth-child(1) {
+.form-box button span:nth-child(1) {
   top: 0;
   left: -100%;
   width: 100%;
@@ -430,7 +430,7 @@ h2 .span {
   }
 }
 
-.box button span:nth-child(2) {
+.form-box button span:nth-child(2) {
   top: -100%;
   right: 0;
   width: 2px;
@@ -449,7 +449,7 @@ h2 .span {
   }
 }
 
-.box button span:nth-child(3) {
+.form-box button span:nth-child(3) {
   bottom: 0;
   right: -100%;
   width: 100%;
@@ -469,7 +469,7 @@ h2 .span {
   }
 }
 
-.box button span:nth-child(4) {
+.form-box button span:nth-child(4) {
   bottom: -100%;
   left: 0;
   width: 2px;

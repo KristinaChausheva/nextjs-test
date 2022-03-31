@@ -2,7 +2,7 @@ import React from "react"
 
 function Form() {
   return (
-    <div className="box">
+    <div className="form-box">
       <h2>Send message</h2>
       <form
         action="https://formsubmit.co/k.chausheva@gmail.com"

@@ -6,6 +6,8 @@ import Link from "next/link"
 
 const prefix = "/nextjs-test"
 
+import Form from "../components/Form"
+
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -85,15 +87,7 @@ export default function Home() {
       <section className={styles.sectionMySkills}>My Work</section>
       <section className={styles.sectionMySkills} id="contacts">
         My Contacts
-        <div className="box">
-          <a href="#">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            Contact me
-          </a>
-        </div>
+        {/* <Form /> */}
       </section>
       <section className={styles.sectionMySkills} id="blog">
         My Blog
