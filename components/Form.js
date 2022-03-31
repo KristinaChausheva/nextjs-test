@@ -2,25 +2,49 @@ import React from "react"
 
 function Form() {
   return (
+    //   <div class="login-box">
+    //   <h2>Login</h2>
+    //   <form>
+    //     <div class="user-box">
+    //       <input type="text" name="" required="" />
+    //       <label>Username</label>
+    //     </div>
+    //     <div class="user-box">
+    //       <input type="password" name="" required="" />
+    //       <label>Password</label>
+    //     </div>
+    //     <a href="#">
+    //       <span></span>
+    //       <span></span>
+    //       <span></span>
+    //       <span></span>
+    //       Submit
+    //     </a>
+    //   </form>
+    // </div>
+
     <form
       action="https://formsubmit.co/k.chausheva@gmail.com"
       method="POST"
       className="form"
     >
-      <input
-        className="formInput"
-        type="email"
-        name="email"
-        placeholder="email"
-        required
-      />
-      <input
-        className="formInput"
-        type="text"
-        name="message"
-        placeholder="write your message here"
-        required
-      />
+      <div className="box">
+        <h2>Send message</h2>
+        <div className="user-box">
+          <input className="formInput" type="email" name="email" required />
+          <label>email</label>
+        </div>
+        <div className="user-box">
+          <input
+            className="formInput"
+            type="text"
+            name="message"
+            placeholder=""
+            required
+          />
+          <label>write your message here</label>
+        </div>
+      </div>
 
       <input
         className="formInput"
