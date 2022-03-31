@@ -325,3 +325,16 @@ h2 .span {
     bottom: 100%;
   }
 }
+
+/* form styles */
+.form {
+  border: 3px solid red;
+  display: flex;
+  flex-direction: column;
+  width: 10em;
+  margin: 40vh;
+}
+
+.formButton {
+  border: 3px red solid;
+}

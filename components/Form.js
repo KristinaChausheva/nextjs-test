@@ -9,18 +9,19 @@ function Form() {
     >
       <input
         className="formInput"
-        type="text"
-        name="message"
-        placeholder="write your message here"
-        required
-      />
-      <input
-        className="formInput"
         type="email"
         name="email"
         placeholder="email"
         required
       />
+      <input
+        className="formInput"
+        type="text"
+        name="message"
+        placeholder="write your message here"
+        required
+      />
+
       <input
         className="formInput"
         type="hidden"
