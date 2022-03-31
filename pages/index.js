@@ -86,8 +86,8 @@ export default function Home() {
       <section className={styles.sectionMySkills}>My Skills</section>
       <section className={styles.sectionMySkills}>My Work</section>
       <section className={styles.sectionMySkills} id="contacts">
-        My Contacts
-        {/* <Form /> */}
+        {/* My Contacts */}
+        <Form />
       </section>
       <section className={styles.sectionMySkills} id="blog">
         My Blog
