@@ -32,17 +32,22 @@ export default function Home() {
       {/* navbar */}
 
       <nav className="nav">
-        <img className="logo" src={`${prefix}/images/kslogo.png`}></img>
+        <Image
+          className="logo"
+          src={`${prefix}/images/kslogo.png`}
+          layout="fill"
+          alt=""
+        />
         <li>
           <Link href="/about">
             <a>About</a>
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link href="/skills">
             <a>My Skills</a>
           </Link>
-        </li>
+        </li> */}
         <li>
           <Link href="/work">
             <a>Work</a>
@@ -94,7 +99,7 @@ export default function Home() {
 
       {/* My Skills section*/}
 
-      <section className={styles.sectionMySkills}>My Skills</section>
+      <section className={styles.sectionMySkills}>About</section>
 
       {/* My Work section*/}
 
