@@ -32,22 +32,17 @@ export default function Home() {
       {/* navbar */}
 
       <nav className="nav">
-        <Image
-          className="logo"
-          src={`${prefix}/images/kslogo.png`}
-          layout="fill"
-          alt=""
-        />
+        <img className="logo" src={`${prefix}/images/kslogo.png`} alt="" />
         <li>
           <Link href="/about">
             <a>About</a>
           </Link>
         </li>
-        {/* <li>
-          <Link href="/skills">
+        <li>
+          <Link href="#skills">
             <a>My Skills</a>
           </Link>
-        </li> */}
+        </li>
         <li>
           <Link href="/work">
             <a>Work</a>
@@ -99,7 +94,16 @@ export default function Home() {
 
       {/* My Skills section*/}
 
-      <section className={styles.sectionMySkills}>About</section>
+      <section className={styles.sectionMySkills} id="skills">
+        <h2>End to End Solutions:</h2>
+        <div>
+          <p>1. Design & Prototyping With Figma,</p>
+          <p>2. Implementation with :</p>
+          <p> - Client side: ReactJS and NextJS;</p>
+          <p> - Server side: NodeJS, Firebase, Third party APIs;</p>
+          <p>3. Deployment & Maintenance;</p>
+        </div>
+      </section>
 
       {/* My Work section*/}
 
