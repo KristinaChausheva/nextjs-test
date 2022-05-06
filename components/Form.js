@@ -11,7 +11,7 @@ function Form() {
       >
         <div className={styles.userBox}>
           <input className="formInput" type="email" name="email" required />
-          <label>email</label>
+          <label>Email</label>
         </div>
 
         <div className={styles.userBox}>
@@ -22,7 +22,7 @@ function Form() {
             placeholder=""
             required
           />
-          <label>write your message here</label>
+          <label>Write your message here...</label>
         </div>
 
         <input
