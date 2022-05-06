@@ -1,19 +1,20 @@
-import React from "react"
+import styles from "../styles/Form.module.css"
 
 function Form() {
   return (
-    <div className="form-box">
+    <div className={styles.formBox}>
       <h2>Send message</h2>
       <form
         action="https://formsubmit.co/k.chausheva@gmail.com"
         method="POST"
         className="form"
       >
-        <div className="user-box">
+        <div className={styles.userBox}>
           <input className="formInput" type="email" name="email" required />
           <label>email</label>
         </div>
-        <div className="user-box">
+
+        <div className={styles.userBox}>
           <input
             className="formInput"
             type="text"
