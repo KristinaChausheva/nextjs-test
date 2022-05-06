@@ -3,7 +3,7 @@ import styles from "../styles/Form.module.css"
 function Form() {
   return (
     <div className={styles.formBox}>
-      <h2>Send message</h2>
+      <h2>Drop me a line or two :)</h2>
       <form
         action="https://formsubmit.co/k.chausheva@gmail.com"
         method="POST"

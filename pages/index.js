@@ -32,7 +32,16 @@ export default function Home() {
       {/* navbar */}
 
       <nav className="nav">
-        <img className="logo" src={`${prefix}/images/kslogo.png`} alt="" />
+        <Link href="#">
+          <img
+            className="logo"
+            src={`${prefix}/images/output.png`}
+            width="150"
+            height="120"
+            alt=""
+          />
+        </Link>
+
         <li>
           <Link href="/about">
             <a>About</a>
@@ -95,13 +104,30 @@ export default function Home() {
       {/* My Skills section*/}
 
       <section className={styles.sectionMySkills} id="skills">
-        <h2>End to End Solutions:</h2>
-        <div>
-          <p>1. Design & Prototyping With Figma,</p>
-          <p>2. Implementation with :</p>
-          <p> - Client side: ReactJS and NextJS;</p>
-          <p> - Server side: NodeJS, Firebase, Third party APIs;</p>
-          <p>3. Deployment & Maintenance;</p>
+        <h3 className="loader">
+          <span className="m">E</span>
+          <span className="m">N</span>
+          <span className="m">D</span>
+          <span className="m">&nbsp;</span>
+          <span className="m">T</span>
+          <span className="m">O</span>
+          <span className="m">&nbsp;</span>
+          <span className="m">S</span>
+          <span className="m">O</span>
+          <span className="m">L</span>
+          <span className="m">U</span>
+          <span className="m">T</span>
+          <span className="m">I</span>
+          <span className="m">O</span>
+          <span className="m">N</span>
+          <span className="m">S</span>
+        </h3>
+        <div className="greeting">
+          <div>1. Design & Prototyping With Figma;</div>
+          <div>2. Implementation with :</div>
+          <p> &nbsp; - Client side: ReactJS and NextJS;</p>
+          <p> &nbsp; - Server side: NodeJS, Firebase, Third party APIs;</p>
+          <div>3. Deployment & Maintenance;</div>
         </div>
       </section>
 
