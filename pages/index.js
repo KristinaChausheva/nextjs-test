@@ -77,7 +77,7 @@ export default function Home() {
             <span className="m">E</span>
             <span className="m">R</span>
           </h2>
-          <a href="#">
+          <a href="#contacts">
             <span></span>
             <span></span>
             <span></span>
@@ -88,15 +88,27 @@ export default function Home() {
         <div className="scroll-left">scroll down &rarr;</div>
         <div className="scroll-right">scroll down &rarr;</div>
       </section>
+
+      {/* My Skills section*/}
+
       <section className={styles.sectionMySkills}>My Skills</section>
+
+      {/* My Work section*/}
+
       <section className={styles.sectionMySkills}>My Work</section>
+
       {/* My Contacts section*/}
+
       <section className={styles.sectionMySkills} id="contacts">
         <Form />
       </section>
+
+      {/* My Blog section*/}
       <section className={styles.sectionMySkills} id="blog">
         My Blog
       </section>
+
+      {/* Footer*/}
       <footer className={styles.footer}>All Rights Reserved &copy; 2022</footer>
     </div>
   )
