@@ -113,6 +113,7 @@
   animation: btn-anim2 1s linear infinite;
   animation-delay: 0.25s;
 }
+
 /* @keyframes btn-anim2 {
   0% {
     top: -100%;
@@ -133,7 +134,7 @@
   animation-delay: 0.5s;
 }
 
-/* @keyframes btn-anim3 {
+@keyframes btn-anim3 {
   0% {
     right: -100%;
   }
@@ -141,7 +142,7 @@
   100% {
     right: 100%;
   }
-} */
+}
 
 .formBox button span:nth-child(4) {
   bottom: -100%;
@@ -150,7 +151,7 @@
   height: 100%;
   background: linear-gradient(360deg, transparent, #03e9f4);
   animation: btn-anim4 1s linear infinite;
-  animation-delay: 0.75s;
+  animation-delay: 1.5s;
 }
 
 /* @keyframes btn-anim4 {
