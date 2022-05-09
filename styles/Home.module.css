@@ -1,13 +1,3 @@
-/* .nav {
-  padding: 0 2rem;
-  height: 100%;
-  width: 35%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: red;
-} */
-
 .sectionHome {
   min-height: 100vh;
   padding: 4rem 0;
@@ -25,7 +15,7 @@
 .sectionMySkills {
   min-height: 100vh;
   width: 100vw;
-  padding: 0;
+  padding: 2em 0;
   display: flex;
   flex: 1;
   flex-direction: column;

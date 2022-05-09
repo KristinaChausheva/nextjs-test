@@ -1,12 +1,13 @@
 import Link from "next/link"
+import styles from "../styles/Navbar.module.css"
 const prefix = "/nextjs-test"
 
 function Navbar() {
   return (
-    <nav className="nav">
+    <nav className={styles.nav}>
       <Link href="#">
         <img
-          className="logo"
+          className={styles.logo}
           src={`${prefix}/images/output.png`}
           width="150"
           height="120"
@@ -14,7 +15,7 @@ function Navbar() {
         />
       </Link>
 
-      <li>
+      <li className={styles.li}>
         <Link href="/about">
           <a>About</a>
         </Link>
