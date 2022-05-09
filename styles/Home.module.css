@@ -21,16 +21,37 @@
   top: 0;
   left: 40%;
 }
+
 .sectionMySkills {
   min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
+  width: 100vw;
+  padding: 0;
   display: flex;
+  flex: 1;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   color: whitesmoke;
   border-top: 1px solid #5ddcff;
+}
+
+.steps {
+  margin: 1em 0;
+  padding-left: 2em;
+}
+
+.steps div {
+  margin: 1em 0;
+}
+
+.steps div:nth-child(1) {
+  margin-top: 3em;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-around;
+  width: 80vw;
 }
 
 .sectionContacts {

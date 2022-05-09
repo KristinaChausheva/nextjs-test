@@ -8,7 +8,11 @@ const prefix = "/nextjs-test"
 
 import Form from "../components/Form"
 
+import firebaselogo from "../public/images/firebaselogo.png"
+
 export default function Home() {
+  const firebaselogo = require("../public/images/firebaselogo.png")
+  console.log(firebaselogo.default.src)
   return (
     <div className={styles.container}>
       <Head>
@@ -104,30 +108,54 @@ export default function Home() {
       {/* My Skills section*/}
 
       <section className={styles.sectionMySkills} id="skills">
-        <h3 className="loader">
-          <span className="m">E</span>
-          <span className="m">N</span>
-          <span className="m">D</span>
-          <span className="m">&nbsp;</span>
-          <span className="m">T</span>
-          <span className="m">O</span>
-          <span className="m">&nbsp;</span>
-          <span className="m">S</span>
-          <span className="m">O</span>
-          <span className="m">L</span>
-          <span className="m">U</span>
-          <span className="m">T</span>
-          <span className="m">I</span>
-          <span className="m">O</span>
-          <span className="m">N</span>
-          <span className="m">S</span>
-        </h3>
         <div className="greeting">
-          <div>1. Design & Prototyping With Figma;</div>
-          <div>2. Implementation with :</div>
-          <p> &nbsp; - Client side: ReactJS and NextJS;</p>
-          <p> &nbsp; - Server side: NodeJS, Firebase, Third party APIs;</p>
-          <div>3. Deployment & Maintenance;</div>
+          <h3 className="loader">
+            <span className="m">E</span>
+            <span className="m">N</span>
+            <span className="m">D</span>
+            <span className="m">&nbsp;</span>
+            <span className="m">T</span>
+            <span className="m">O</span>
+            <span className="m">&nbsp;</span>
+            <span className="m">S</span>
+            <span className="m">O</span>
+            <span className="m">L</span>
+            <span className="m">U</span>
+            <span className="m">T</span>
+            <span className="m">I</span>
+            <span className="m">O</span>
+            <span className="m">N</span>
+            <span className="m">S</span>
+          </h3>
+          <div className={styles.steps}>
+            <div>1. Design & Prototyping With Figma;</div>
+            <div>2. Implementation with :</div>
+            <p> &nbsp; - Client side: ReactJS and NextJS;</p>
+            <p> &nbsp; - State management with Redux;</p>
+            <p> &nbsp; - Server side: NodeJS, Firebase, Third party APIs;</p>
+            <div>3. Deployment & Maintenance;</div>
+          </div>
+        </div>
+        <div className={styles.logos}>
+          <img
+            src={`${prefix}/images/figmalogo.png`}
+            width={100}
+            height={100}
+            className={styles.logo}
+          />
+          <img src={`${prefix}/images/react.png`} width={110} height={100} />
+          <img
+            src={`${prefix}/images/firebaselogo.png`}
+            width={100}
+            height={100}
+          />
+
+          <img
+            src={`${prefix}/images/next_logo.png`}
+            width={100}
+            height={100}
+          />
+          <img src={`${prefix}/images/nodelogo.png`} width="100" height={100} />
         </div>
       </section>
 
