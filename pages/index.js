@@ -53,7 +53,7 @@ export default function Home() {
         </li>
         <li>
           <Link href="#skills">
-            <a>My Skills</a>
+            <a>My Tech Stack</a>
           </Link>
         </li>
         <li>
