@@ -20,22 +20,22 @@ function Navbar() {
           <a>About</a>
         </Link>
       </li>
-      <li>
+      <li className={styles.li}>
         <Link href="#skills">
           <a>My Tech Stack</a>
         </Link>
       </li>
-      <li>
+      <li className={styles.li}>
         <Link href="/work">
           <a>Work</a>
         </Link>
       </li>
-      <li>
+      <li className={styles.li}>
         <Link href="#contacts">
           <a>Contact</a>
         </Link>
       </li>
-      <li>
+      <li className={styles.li}>
         <Link href="#blog">
           <a>Blog </a>
         </Link>

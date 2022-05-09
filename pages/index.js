@@ -8,6 +8,7 @@ import Form from "../components/Form"
 
 import firebaselogo from "../public/images/firebaselogo.png"
 import Navbar from "../components/Navbar"
+import Scroll from "../components/Scroll"
 
 export default function Home() {
   const firebaselogo = require("../public/images/firebaselogo.png")
@@ -64,15 +65,14 @@ export default function Home() {
             Contact me
           </a>
         </div>
-        <div className="scroll-left">scroll down &rarr;</div>
-        <div className="scroll-right">scroll down &rarr;</div>
+        {/* <Scroll /> */}
       </section>
 
       {/* My Skills section*/}
 
       <section className={styles.sectionMySkills} id="skills">
         <div className="greeting">
-          <h3 className="loader">
+          <h1 className="loader">
             <span className="m">E</span>
             <span className="m">N</span>
             <span className="m">D</span>
@@ -89,7 +89,7 @@ export default function Home() {
             <span className="m">O</span>
             <span className="m">N</span>
             <span className="m">S</span>
-          </h3>
+          </h1>
           <div className={styles.steps}>
             <div>1. Design & Prototyping With Figma;</div>
             <div>2. Implementation with :</div>

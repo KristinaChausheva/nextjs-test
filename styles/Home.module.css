@@ -26,8 +26,9 @@
 }
 
 .steps {
-  margin: 1em 0;
-  padding-left: 2em;
+  /* margin: 1em 0; */
+  padding-left: 1em;
+  font-size: 1.3em;
 }
 
 .steps div {
