@@ -93,9 +93,12 @@ export default function Home() {
           <div className={styles.steps}>
             <div>1. Design & Prototyping With Figma;</div>
             <div>2. Implementation with :</div>
-            <p> &nbsp; - Client side: ReactJS and NextJS;</p>
-            <p> &nbsp; - State management with Redux;</p>
-            <p> &nbsp; - Server side: NodeJS, Firebase, Third party APIs;</p>
+            <div> &nbsp; - Client side: ReactJS and NextJS;</div>
+            <div> &nbsp; - State management with Redux;</div>
+            <div>
+              {" "}
+              &nbsp; - Server side: NodeJS, Firebase, Third party APIs;
+            </div>
             <div>3. Deployment & Maintenance;</div>
           </div>
         </div>
