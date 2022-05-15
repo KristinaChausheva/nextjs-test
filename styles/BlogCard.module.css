@@ -13,6 +13,7 @@
   color: rgb(88 199 250 / 0%);
   cursor: pointer;
   font-family: cursive;
+  margin: 1em;
 }
 
 .card:hover {
@@ -29,7 +30,7 @@
   content: "";
   width: 104%;
   height: 102%;
-  border-radius: 8px;
+  border-radius: 0.3em;
   background-image: linear-gradient(
     var(--rotate),
     #5ddcff,

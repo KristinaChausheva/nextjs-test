@@ -9,6 +9,7 @@ import Form from "../components/Form"
 import firebaselogo from "../public/images/firebaselogo.png"
 import Navbar from "../components/Navbar"
 import Scroll from "../components/Scroll"
+import BlogCard from "../components/Blogcard"
 
 export default function Home() {
   const firebaselogo = require("../public/images/firebaselogo.png")
@@ -136,8 +137,16 @@ export default function Home() {
       </section>
 
       {/* My Blog section*/}
-      <section className={styles.sectionMySkills} id="blog">
-        My Blog
+      <section className={styles.sectionBlog} id="blog">
+        <BlogCard />
+        <BlogCard />
+        <BlogCard />
+        <BlogCard />
+        <BlogCard />
+        <BlogCard />
+        <BlogCard />
+        <BlogCard />
+        <BlogCard />
       </section>
 
       {/* Footer*/}
