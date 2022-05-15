@@ -23,7 +23,7 @@
 .card:hover:before,
 .card:hover:after {
   animation: none;
-  opacity: 0;
+  opacity: 1;
 }
 
 .card::before {
