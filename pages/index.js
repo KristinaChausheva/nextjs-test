@@ -9,7 +9,7 @@ import Form from "../components/Form"
 import firebaselogo from "../public/images/firebaselogo.png"
 import Navbar from "../components/Navbar"
 import Scroll from "../components/Scroll"
-import BlogCard from "../components/Blogcard"
+import BlogCard from "../components/BlogCard"
 
 export default function Home() {
   const firebaselogo = require("../public/images/firebaselogo.png")
