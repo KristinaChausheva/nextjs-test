@@ -69,6 +69,8 @@ export default function Home() {
         {/* <Scroll /> */}
       </section>
 
+      {/* about section*/}
+
       {/* My Skills section*/}
 
       <section className={styles.sectionMySkills} id="skills">
@@ -80,6 +82,10 @@ export default function Home() {
             <span className="m">&nbsp;</span>
             <span className="m">T</span>
             <span className="m">O</span>
+            <span className="m">&nbsp;</span>
+            <span className="m">E</span>
+            <span className="m">N</span>
+            <span className="m">D</span>
             <span className="m">&nbsp;</span>
             <span className="m">S</span>
             <span className="m">O</span>
@@ -100,7 +106,8 @@ export default function Home() {
               {" "}
               &nbsp; - Server side: NodeJS, Firebase, Third party APIs;
             </div>
-            <div>3. Deployment & Maintenance;</div>
+            <div>3. Testing with Jest</div>
+            <div>4. Deployment & Maintenance;</div>
           </div>
         </div>
         <div className={styles.logos}>
