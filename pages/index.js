@@ -71,6 +71,30 @@ export default function Home() {
 
       {/* about section*/}
 
+      <section className={styles.sectionAbout} id="about">
+        <div className="greeting">
+          <h1 className="loader">
+            <span className="m">R</span>
+            <span className="m">E</span>
+            <span className="m">S</span>
+            <span className="m">U</span>
+            <span className="m">M</span>
+            <span className="m">E</span>
+          </h1>
+          <div className={styles.steps}>
+            <div>Education:</div>
+            <div>
+              &nbsp; - High School Diploma - High School of Mathematics and
+              Informatics - Burgas, Bulgaria
+            </div>
+            <div>&nbsp; - BSc Natural Sciences - AU Plovdiv, Bulgaria</div>
+            <div>
+              &nbsp; - Profesional Education - SoftUni - Sofia, Bulgaria
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* My Skills section*/}
 
       <section className={styles.sectionMySkills} id="skills">
