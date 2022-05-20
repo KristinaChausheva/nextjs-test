@@ -4,8 +4,10 @@ const nextConfig = {
   basePath: "/nextjs-test",
   assetsPrefix: "/nextjs-test",
   images: {
-    loader: "imgix",
+    loader: "default",
     path: "/",
+    domains: [],
+    formats: ["image/avif", "image/webp"],
   },
 }
 

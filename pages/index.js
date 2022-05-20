@@ -126,10 +126,7 @@ export default function Home() {
             <div>2. Implementation with :</div>
             <div> &nbsp; - Client side: ReactJS and NextJS;</div>
             <div> &nbsp; - State management with Redux;</div>
-            <div>
-              {" "}
-              &nbsp; - Server side: NodeJS, Firebase, Third party APIs;
-            </div>
+            <div>&nbsp; - Server side: NodeJS, Firebase, Third party APIs;</div>
             <div>3. Testing with Jest</div>
             <div>4. Deployment & Maintenance;</div>
           </div>
@@ -169,7 +166,6 @@ export default function Home() {
 
       {/* My Blog section*/}
       <section className={styles.sectionBlog} id="blog">
-        <BlogCard />
         <BlogCard />
         <BlogCard />
         <BlogCard />
