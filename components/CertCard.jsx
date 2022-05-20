@@ -1,9 +1,9 @@
-import styles from "../styles/BlogCard.module.css"
+import styles from "../styles/CertCard.module.css"
 import Image from "next/image"
 import qa from "../public/images/qa.png"
 const prefix = "/nextjs-test"
 
-function BlogCard() {
+function CertCard() {
   return (
     <div className={styles.card}>
       {/* <img
@@ -16,4 +16,4 @@ function BlogCard() {
   )
 }
 
-export default BlogCard
+export default CertCard
