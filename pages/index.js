@@ -10,7 +10,7 @@ import firebaselogo from "../public/images/firebaselogo.png"
 import Navbar from "../components/Navbar"
 import Scroll from "../components/Scroll"
 import CertCard from "../components/CertCard"
-import CertSection from "../components/SertSection"
+import CertSection from "../components/CertSection"
 
 export default function Home() {
   const firebaselogo = require("../public/images/firebaselogo.png")
