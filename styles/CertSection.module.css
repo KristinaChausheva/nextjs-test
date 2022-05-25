@@ -1,6 +1,6 @@
 .qa {
   /* background: #191c29; */
-  background-image: url("../public/images/qa.png");
+  /* background-image: url("../public/images/qa.png"); */
   background-size: contain;
   width: var(--card-width);
   height: var(--card-height);
