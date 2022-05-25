@@ -3,7 +3,7 @@ const nextConfig = {
   basePath: "/nextjs-test",
   assetsPrefix: "/nextjs-test",
   images: {
-    loader: "default",
+    loader: "akamai",
     path: "/",
     domains: [],
     formats: ["image/avif", "image/webp"],
