@@ -167,7 +167,7 @@ export default function Home() {
 
       {/* My Blog section*/}
       <section className={styles.sectionBlog} id="blog">
-        <CertCard />
+        {/* <CertCard /> */}
       </section>
 
       {/* Footer*/}
