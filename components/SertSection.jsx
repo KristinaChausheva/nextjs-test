@@ -1,7 +1,12 @@
 import styles from "../styles/CertSection.module.css"
 
 function CertSection() {
-  return <div className={styles.qa}></div>
+  return (
+    <div className={styles.certSection}>
+      <div className={styles.qa}></div>
+      <div className={styles.scrum}></div>
+    </div>
+  )
 }
 
 export default CertSection
