@@ -5,6 +5,7 @@ function CertSection() {
     <div className={styles.certSection}>
       <div className={styles.qa}></div>
       <div className={styles.scrum}></div>
+      <div className={styles.scrumsu}></div>
     </div>
   )
 }
