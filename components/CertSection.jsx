@@ -8,6 +8,7 @@ function CertSection() {
       <div className={styles.scrumsu}></div>
       <div className={styles.jsadv}></div>
       <div className={styles.cssadv}></div>
+      <div className={styles.node}></div>
     </div>
   )
 }
