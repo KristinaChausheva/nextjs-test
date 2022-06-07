@@ -10,6 +10,7 @@ function CertSection() {
       <div className={styles.cssadv}></div>
       <div className={styles.node}></div>
       <div className={styles.jsapps}></div>
+      <div className={styles.design}></div>
     </div>
   )
 }
